@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 52dd3adaffe1d9e40a13fd9a1230a01f, type: 3}
+  m_Name: WeatherType 1
+  m_EditorClassIdentifier: 
+  systemSetting: {fileID: 11400000, guid: fe6d1a264cea27840b457b9ecd23f64e, type: 2}
+  SunAttenuationMultipler: 1
+  sunDir: {x: 0.6076002, y: -0.580894, z: -0.54164964}

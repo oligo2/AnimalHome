@@ -1,0 +1,2 @@
+/Assets/TA/Scene/Character/Mountain/Mountain_Normal.png filter=lfs diff=lfs merge=lfs -text
+/Assets/TA/Water/WaterDemo[[:space:]]BeachSand.unity filter=lfs diff=lfs merge=lfs -text

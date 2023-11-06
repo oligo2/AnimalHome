@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8209126837974592992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9033b35f81ff985489c75c00fcf82ce2, type: 3}
+  m_Name: '[ECO]TerrainVT'
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  runCameraType: 1
+  VTLitMaterial: {fileID: 2100000, guid: 2b0c4bcebf84348488b85dbd41ebbd4e, type: 2}
+  GenerateVTMaterial: {fileID: 2100000, guid: 4fe1999891094be439880c76ff5b3729, type: 2}
+  CopyVTMaterial: {fileID: 2100000, guid: a5aef0cf8cd97ec47802e30e4a4aefb2, type: 2}
+  ColorRT: 1024
+  NormalRT: 1024
+  HeightRT: 256
+  CenterSize: 4
+  LODNum: 12
+  RefreshVT: 0
+--- !u!114 &-7709874768474790143
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aafbd6407fd551a4fb2f605023880ce5, type: 3}
+  m_Name: CopyStencil2Feature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  runCameraType: 1
+  settings:
+    RenderPassEvent: 550
+    CopyMaterial: {fileID: 2100000, guid: afcb9cdded259ca4da7f58232404a97d, type: 2}
+    Ref: 16
+    TargetName: _StencilHbaoTexture
+--- !u!114 &-7029280472841990596
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aafbd6407fd551a4fb2f605023880ce5, type: 3}
+  m_Name: CopyStencilFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  runCameraType: 1
+  settings:
+    RenderPassEvent: 550
+    CopyMaterial: {fileID: 2100000, guid: 37e0af260ce2b8940a1f42056b8fce7e, type: 2}
+    Ref: 2
+    TargetName: _StencilTexture
+--- !u!114 &-6073349451561963174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65da62e9f5a19cd43bf6a8f2d96fded8, type: 3}
+  m_Name: GrassRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_CullingCS: {fileID: 7200000, guid: d827dda3128ef904eb5f9ff1b52ba995, type: 3}
+  m_CullingKernel: 0
+--- !u!114 &-4041076115665731215
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 65da62e9f5a19cd43bf6a8f2d96fded8, type: 3}
+  m_Name: GrassRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  m_CullingCS: {fileID: 7200000, guid: d827dda3128ef904eb5f9ff1b52ba995, type: 3}
+--- !u!114 &-2050568007415628793
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3daa90c10c3bef4687be5c2abc88666, type: 3}
+  m_Name: SSRRenderFeature
+  m_EditorClassIdentifier: 
+  m_Active: 1
+  runCameraType: 1
+  useForward: 1
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de640fe3d0db1804a85f9fc8f5cadab6, type: 3}
+  m_Name: URP-HighFidelity-Renderer
+  m_EditorClassIdentifier: 
+  debugShaders:
+    debugReplacementPS: {fileID: 4800000, guid: cf852408f2e174538bcd9b7fda1c5ae7, type: 3}
+  m_RendererFeatures:
+  - {fileID: -7709874768474790143}
+  m_RendererFeatureMap: 0127502abf050195
+  m_UseNativeRenderPass: 0
+  postProcessData: {fileID: 11400000, guid: 41439944d30ece34e96484bdb6645b55, type: 2}
+  xrSystemData: {fileID: 11400000, guid: 60e1133243b97e347b653163a8c01b64, type: 2}
+  shaders:
+    blitPS: {fileID: 4800000, guid: c17132b1f77d20942aa75f8429c0f8bc, type: 3}
+    copyDepthPS: {fileID: 4800000, guid: d6dae50ee9e1bfa4db75f19f99355220, type: 3}
+    screenSpaceShadowPS: {fileID: 0}
+    samplingPS: {fileID: 4800000, guid: 04c410c9937594faa893a11dceb85f7e, type: 3}
+    stencilDeferredPS: {fileID: 4800000, guid: e9155b26e1bc55942a41e518703fe304, type: 3}
+    fallbackErrorPS: {fileID: 4800000, guid: e6e9a19c3678ded42a3bc431ebef7dbd, type: 3}
+    materialErrorPS: {fileID: 4800000, guid: 5fd9a8feb75a4b5894c241777f519d4e, type: 3}
+    coreBlitPS: {fileID: 4800000, guid: 93446b5c5339d4f00b85c159e1159b7c, type: 3}
+    coreBlitColorAndDepthPS: {fileID: 4800000, guid: d104b2fc1ca6445babb8e90b0758136b, type: 3}
+    cameraMotionVector: {fileID: 4800000, guid: c56b7e0d4c7cb484e959caeeedae9bbf, type: 3}
+    objectMotionVector: {fileID: 4800000, guid: 7b3ede40266cd49a395def176e1bc486, type: 3}
+    gaussfPS: {fileID: 4800000, guid: 805f6a85e41ba4f4293326df543d10a0, type: 3}
+  m_AssetVersion: 1
+  m_OpaqueLayerMask:
+    serializedVersion: 2
+    m_Bits: 2147483647
+  m_TransparentLayerMask:
+    serializedVersion: 2
+    m_Bits: 2147483647
+  m_DefaultStencilState:
+    overrideStencilState: 0
+    stencilReference: 0
+    stencilCompareFunction: 8
+    passOperation: 2
+    failOperation: 0
+    zFailOperation: 0
+  m_ShadowTransparentReceive: 1
+  m_RenderingMode: 0
+  m_DepthPrimingMode: 0
+  m_AccurateGbufferNormals: 0
+  m_ClusteredRendering: 0
+  m_TileSize: 32
+  m_IntermediateTextureMode: 1
+  meshs:
+    skyMesh: {fileID: -41522314831610024, guid: 022ee3ce7ceb9ab4cb29e479e4275731, type: 3}
+  materials:
+    skyMaterial: {fileID: 2100000, guid: 4f89dfabe03daab43a12a81e44196961, type: 2}
+  m_GaussfData:
+    EnableGaussF: 0
+    Sharpness: 0.05
+--- !u!114 &2477764621545367651
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 119823f8db6dcb24690ef98db3701cc9, type: 3}
+  m_Name: UIBlurFeature
+  m_EditorClassIdentifier: 
+  m_Active: 0
+  runCameraType: 0
+  settings:
+    RenderPassEvent: 430
+    GaussianBlurMaterial: {fileID: 2100000, guid: c61c72f40af93874bb28bbb2d907332a, type: 2}
+    Quality: 2
+    BlurPasses: 75
+    BlurSpread: 2
+    Downsample: 2
