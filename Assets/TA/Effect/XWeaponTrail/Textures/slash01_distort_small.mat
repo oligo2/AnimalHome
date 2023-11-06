@@ -1,0 +1,109 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: slash01_distort_small
+  m_Shader: {fileID: 4800000, guid: bc0896416c0ed1b4bb278b0f136653ee, type: 3}
+  m_ValidKeywords:
+  - _EnableDistort
+  m_InvalidKeywords: []
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BaseMap:
+        m_Texture: {fileID: 2800000, guid: 2e995b62ba6233b498fa3389fbfb9103, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DispMap:
+        m_Texture: {fileID: 2800000, guid: 463f3e17448c6f147a7b7811acdfb56f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DissolveMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DistortMap:
+        m_Texture: {fileID: 2800000, guid: 463f3e17448c6f147a7b7811acdfb56f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeatMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _HeatMaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskTex:
+        m_Texture: {fileID: 2800000, guid: 2e995b62ba6233b498fa3389fbfb9103, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - _BlendDst: 0
+    - _BlendSrc: 5
+    - _ColorMask: 15
+    - _CullMode: 0
+    - _DepthFadeIndensity: 1
+    - _DispScrollSpeedX: 0.2
+    - _DispScrollSpeedY: 0.2
+    - _DissolveIlluminate: 1
+    - _DissolvePow: 1
+    - _DissolveThreshold: 0.002
+    - _DissolveValueRange: 0.5
+    - _DistortScale: 1
+    - _DistortSpeed: 1
+    - _EdgeRange: 0
+    - _EnableDepthFade: 0
+    - _EnableDepth_e: 0
+    - _EnableDissolve: 0
+    - _EnableDissolve_e: 0
+    - _EnableDistort: 1
+    - _EnableDistort_e: 0
+    - _EnableHeat: 0
+    - _EnableHeat_e: 0
+    - _EnableMask: 0
+    - _EnableMask_e: 0
+    - _EnableRimColor: 0
+    - _EnableRimColor_e: 0
+    - _HeatChange: 1
+    - _HeatPow: 10
+    - _MaskPow: 1
+    - _MaskThreshold: 0
+    - _OffsetFactor: 0
+    - _OffsetUnits: 0
+    - _RimPower: 5
+    - _StrengthX: 0.5
+    - _StrengthY: 0.5
+    - _ZTest: 2
+    m_Colors:
+    - _BaseColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _BaseScrollAndRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _DissolveScrollAndRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _DistortScrollAndRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _EdgeColor: {r: 1, g: 1, b: 1, a: 1}
+    - _HeatMaskScrollAndRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _HeatScrollAndRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _MaskScrollAndRotate: {r: 0, g: 0, b: 0, a: 0}
+    - _RimColor: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []

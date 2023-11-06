@@ -1,0 +1,42 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88289eb1172d4414be476e96d1390f06, type: 3}
+  m_Name: Cumulonimbus - High 1
+  m_EditorClassIdentifier: 
+  Sampler:
+    VolumeTexture: {fileID: 11700000, guid: 73cc96bf0c41610469d78e661bf73d8b, type: 2}
+    Tiling: {x: 0.19, y: 0.08}
+    Octave: 2.1
+    Sculpture: 0.92
+    Sculpture2: 0.45
+    Sculpture3: 1
+    Sculpture4: -0.47
+    Warp: 0.5
+    Softness: 0.63
+    NearSoftnessScale: 2
+    Density: 0.15
+    Scale: 2.44
+  HorizontalShape:
+    FromHeight: 3800
+    ToHeight: 5000
+    SoftnessTop: 0.794
+    SoftnessBottom: 0.047
+    Figure: 0.189
+    MaxDistance: 55422
+  Lighting:
+    Intensity: 1
+    Quality: 1
+    Scattering: 0.411
+    Shading: 0.348
+    ShadingDistance: 0.457
+    Transparency: 0
+    Mie: 1

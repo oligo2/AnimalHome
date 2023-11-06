@@ -1,0 +1,354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4345040986153210856
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7067137138168799078}
+  - component: {fileID: 5818331579131048217}
+  m_Layer: 0
+  m_Name: NepheleSky_Story
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7067137138168799078
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345040986153210856}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.685504, y: 12.853177, z: 31.00572}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5818331579131048217
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4345040986153210856}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb259c1cc75af441b6f0ba04230bc8b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  showAtmosphere: 1
+  showAdvanceAtmosphere: 0
+  showHeightFog: 1
+  show2DClouds: 1
+  showLightShafts: 1
+  showTimeOfDay: 1
+  m_AtmosphereData:
+    UseAdvancedParameters: 0
+    SkyMaterial: {fileID: 0}
+    UseSkyBox: 0
+    InscatterAltitudeSample: 1
+    SkyOffset: 0.9865
+    AtmosphereThickness: 1.3
+    AtmosphereExposure:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.01
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 24
+        value: 2.01
+        inSlope: 0.16666667
+        outSlope: 0.16666667
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    AtmosphericAbsorption: 0.000001
+    RayleighDecay: 13.6
+    RayleighColor:
+      serializedVersion: 2
+      key0: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key1: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key2: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key3: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key4: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key5: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key6: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key7: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    MieScattering: 1
+    MieDecay: 0.02
+    MieColor:
+      serializedVersion: 2
+      key0: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key1: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key2: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key3: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key4: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key5: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key6: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      key7: {r: 0.3764706, g: 0.43529412, b: 0.43137255, a: 0.4392157}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    SunAnisotropyFactor: 0.922
+    Wavelengths: {x: 680, y: 550, z: 440}
+    SunSize: 0.22
+    NightZenithColor: {r: 0.061276272, g: 0.061276272, b: 0.084905684, a: 1}
+    NightHorizonColor: {r: 0.039215688, g: 0.039215688, b: 0.039215688, a: 0.5019608}
+    OuterSpaceIntensity: 1
+    OuterSpaceRot: {x: 0, y: 0, z: 0}
+    OuterSpaceRotSpeed: {x: 0, y: 0, z: 0}
+    MoonInnerCorona: {r: 0.5754717, g: 0.5609906, b: 0.4696066, a: 0.5019608}
+    MoonOuterCorona: {r: 0.32809716, g: 0.45973825, b: 0.6886792, a: 0.5019608}
+    MoonSize: 1.5
+    MoonLuminance: 0.57
+    AtmosphericFogDistanceScale: 1
+    AtmosphericFogDensityOffset: 0.6641
+    AtmosphericFogGroundOffset: 1960073
+    AtmosphericFogAltitudeScale: 1
+    AtmosphericFogStartDistance: 214
+    AtmosphericFogSunDiscScale: 1
+    AtmosphericFogSunPower: 10.2
+    AtmosphericFogPower: 9.1
+    AtmosphericFogDistanceOffset: 0
+    AtmosphereLightDiscLuminance: {r: 0.9528302, g: 0.9528302, b: 0.9528302, a: 1}
+    AtmosphereLightColor: {r: 0.1330248, g: 0.15080191, b: 0.1792453, a: 1}
+    AtmospherePostProcessEnable: 0
+    HorizonColor:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    ZenithColor:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    CloudColor:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    OverallColor:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 1}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    SkyRadius: 0.058
+    CloudOpacity: 1
+    CloudSpeed: 1
+    CloudMask: {fileID: 0}
+    MoonSampler: {fileID: 0}
+    NoisePower1: 1
+    NoisePower2: 4
+    SunBrightness: 50
+    StarsBrightness: 1
+  m_HeightFogData:
+    HeightFogEnable: 0
+    GlobalDensity: 0.0216
+    HeightFogAltitude: 200
+    HeightFallOff: 0.001
+    HeightFogStart: 0
+    MaxFogOpacity: 0.405
+    HeightFogColor: {r: 0.41176474, g: 0.7607844, b: 1, a: 1}
+    HeightFogLuminance: 9.39
+    InscatterExponent: 12.7
+    InscatterColor: {r: 0.6745098, g: 0.8745099, b: 0.9725491, a: 1}
+    InscatterLuminance: 1
+    InscatterStart: 200
+  m_Cloud2DData:
+    CloudEnable: 1
+    CloudMaterial:
+    - {fileID: 2100000, guid: cd454b29e32eac2479c5a929edcb63de, type: 2}
+    - {fileID: 2100000, guid: 70011848bf659bf45800b657ff855e50, type: 2}
+    - {fileID: 2100000, guid: cf2658bbd9119b842bc81964dad0b541, type: 2}
+    CloudAltitude: 0
+    CloudVerticalClouds: 0.473
+    CloudHorizonClouds: 0.956
+    CloudScale: 0.541
+    CloudThickness: 3.52
+    CloudBaseMap: {fileID: 2800000, guid: 782097d1752a63046b0b37e051d45053, type: 3}
+    CloudNoiseMap: {fileID: 2800000, guid: 6f6a4297992d0374fa7cca5d40228f1b, type: 3}
+    CloudTilingOffestAndTurbulence: {x: 0.5, y: 0.5, z: 1, w: 20}
+    CloudOffestSpeedXYAndVHChangeSpeedZW: {x: 0.01, y: 0, z: 0.05, w: -0.8}
+    CloudBumpA: {fileID: 2800000, guid: 51724de9b98fb3f45a24e5955a1e24dc, type: 3}
+    CloudBumpB: {fileID: 2800000, guid: 4d50c38fe70a2cc488e6eac5b31d9afa, type: 3}
+    CloudColorLight: {r: 0.7830189, g: 0.7830189, b: 0.7830189, a: 1}
+    CloudColorDark: {r: 0.4291266, g: 0.46916503, b: 0.5188679, a: 1}
+    CloudBrightEdgeWidth: 1.17
+    CloudBrightEdgeContrast: 3.4
+    CloudBrightEdgeIntensity: 92.7
+    CloudBrightEdgeRange: 77.9
+  m_VolumetricLightData:
+    VolumetricLightEnable: 1
+    VolumetricLightDownsample: 1
+    VolumetricLightIntensity: 0.499
+    VolumetricLightOcclusionHardness: 5.81
+    VolumetricLightDistance: 0.5
+    VolumetricLightMaxLuminance: 1.99
+    YAttenuation: 2
+  m_TimeOfDay:
+    Enable: 1
+    EnableInEditor: 1
+    Play: 0
+    PlayInEditor: 0
+    Latitude: -69
+    Longitude: 0
+    PlayTime: 0
+    PlaySpeed: 5000
+    SunLightColor: {r: 1, g: 0.9386792, b: 0.9386792, a: 1}
+    SunLightIntensity: 1
+    MoonLightColor: {r: 0.3529412, g: 0.38431376, b: 0.46274513, a: 1}
+    MoonLightIntensity: 1
+    IsNight: 1
+    SunDir: {x: -0.00000008161619, y: -0.35836807, z: -0.9335804}
+    MoonDir: {x: 0.00000008161619, y: 0.35836807, z: 0.9335804}
