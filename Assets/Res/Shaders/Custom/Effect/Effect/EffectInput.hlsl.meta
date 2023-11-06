@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:programs/AGameURP/Assets/Res/Shaders/Custom2/Effect/EffectInput.hlsl.meta
+guid: b4f0942563c3c54488c0ef8f8745c73a
+========
+guid: bbacdb1377f414347a62c1d63791f5ad
+>>>>>>>> origin/PureCShape:programs/AGameURP/Assets/Res/Shaders/Custom/BahamuCharacterToon/Library/BahamuToonMobFace.hlsl.meta
+ShaderIncludeImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

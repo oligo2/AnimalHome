@@ -1,0 +1,10 @@
+fileFormatVersion: 2
+guid: c8029c2f5e87f7742a069e64fd01aa58
+ShaderImporter:
+  externalObjects: {}
+  defaultTextures: []
+  nonModifiableTextures: []
+  preprocessorOverride: 0
+  userData: 
+  assetBundleName: shaders@custom@rendererfeature@uiblur.unity3d
+  assetBundleVariant: 
