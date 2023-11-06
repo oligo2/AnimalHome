@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37179c92e407d674d9f465e3f8c55c85, type: 3}
+  m_Name: Infinite Ocean Preset
+  m_EditorClassIdentifier: 
+  m_OceanLevel: 0
+  m_TCOceanMeshType: 1
+  m_PlaneMeshQualityWeights: 1
+  m_PlaneMeshDoMainSize: 400
+  m_CircleGridNumber: 200
+  m_TrapezoidalUpperLine: 463
+  m_UseTesselation: 1
+  m_MateritalUnableTesselation: {fileID: 2100000, guid: 6d2c67ea8d4fee64092c103fdb18cfd8, type: 2}
+  m_MateritalAbleTesselation: {fileID: 2100000, guid: 719444741affab349aa5464f564264f9, type: 2}
+  m_TesselationFactorWeights: 0.506
+  m_TesselationMaxFactor: 6.29
+  m_TesselationMaxDistance: 427
+  m_TCOceanWaveFormType: 0
+  m_GerstnerWaveCount: 6
+  m_GerstnerWaveRandomSeed: 89793
+  m_GerstnerWaveAmplitude: 1.82
+  m_GerstnerWaveDirection: 137.3
+  m_GerstnerWaveLength: 12.2
